@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">المحكمة العليا</string>
+    <string name="label_spinner_chambre_arret">الغرفة القضائية:</string>
+    <string name="label_spinner_annee_ref">سنة الحكم:</string>
+    <string name="label_spinner_ref_arret">مرجعية الحكم:</string>
+    <string name="btn_filter">Filter</string>
+    <string name="court_decision_format">القرار رقم: {{NumArret}} الصادر عن :{{RefArret}} بتاريخ {{DateArret}}</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="chambre_arret_labels">
+        <item>الغرفة الإدارية</item>
+        <item>الغرفة التجارية و البحرية</item>
+        <!-- Add more labels as needed -->
+    </string-array>
+
+    <string-array name="annee_ref_labels">
+        <item>2000</item>
+        <item>1990</item>
+        <!-- Add more labels as needed -->
+    </string-array>
+
+    <string-array name="ref_arret_labels">
+        <item>المجلة القضائية</item>
+        <item>نشرة القضاة</item>
+        <!-- Add more labels as needed -->
+    </string-array>
+
+</resources>

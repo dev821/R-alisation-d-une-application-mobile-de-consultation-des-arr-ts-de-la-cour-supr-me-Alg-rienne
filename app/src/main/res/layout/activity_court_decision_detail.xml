@@ -1,0 +1,115 @@
+<!-- src/main/res/layout/activity_court_decision_detail.xml -->
+<!-- src/main/res/layout/activity_court_decision_detail.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CourtDecisionDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".CourtDecisionDetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Existing TextViews -->
+            <TextView
+                android:id="@+id/tvNumArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:text="القرار رقم:" />
+
+            <TextView
+                android:id="@+id/tvChambreArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:text="الصادر عن:" />
+
+            <TextView
+                android:id="@+id/tvDateArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                />
+
+            <!-- Additional TextViews -->
+            <TextView
+                android:id="@+id/tvRefArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:text="الرقم المرجعي: ${it.RefArret}" />
+
+            <TextView
+                android:id="@+id/tvAnneeRef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                 />
+
+            <TextView
+                android:id="@+id/tvNumRef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                 />
+
+            <TextView
+                android:id="@+id/tvNumPageRef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                 />
+
+            <TextView
+                android:id="@+id/tvPartiesArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                />
+
+            <TextView
+                android:id="@+id/tvPrincipeArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                 />
+
+            <TextView
+                android:id="@+id/tvDecisionArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                />
+
+            <TextView
+                android:id="@+id/tvDecisionOpArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                />
+
+            <TextView
+                android:id="@+id/tvCompositionArret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                 />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
